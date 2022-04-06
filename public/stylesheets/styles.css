@@ -5,3 +5,48 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #0a2c42;
+  color: white;
+  text-decoration: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav a {
+  padding: 1em;
+  display: inline-flex;
+}
+
+.home-page-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page-contents a {
+  display: block;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: #2081c3;
+  color: white;
+}
